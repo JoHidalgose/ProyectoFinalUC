@@ -1,0 +1,90 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+    }
+
+    :root {
+      --mint-white: #f7fff6;
+      --light-green: #bcebc8;
+      --forest-green: #3f6634;
+      --steel-blue: #2f6690;
+      --night-blue: #04151f;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--mint-white);
+      background-image: url('mybackground.jpg'); /* Updated image path */
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      backdrop-filter: blur(5px);
+    }
+
+    .title {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: 500;
+      color: var(--night-blue);
+    }
+
+    input {
+      width: 100%;
+      padding: 0.6rem;
+      margin-top: 0.4rem;
+      font-size: 1rem;
+      box-shadow: inset;
+    }
+
+    .btn {
+      margin-top: 1.5rem;
+      background-color: var(--steel-blue);
+      color: white;
+      border: none;
+      padding: 0.8rem;
+      width: 100%;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.4s ease;
+    }
+
+    .btn:hover {
+      background-color: var(--forest-green);
+    }
+
+    .toggle {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: var(--night-blue);
+    }
+
+    .toggle a {
+      color: var(--steel-blue);
+      text-decoration: none;
+      font-weight: bold;
+    }
